@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 204, 255);
+    vertical-align: middle;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: arial,sans-serif;
+}
+
+#g_logo {
+    height: 92px;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+#searchbar {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -1px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.material-icons {
+    color:#00c3ff; 
+    display: flex; 
+    align-items: center; 
+    padding-right: 10px; 
+    margin-top: 3px; 
+    font-size: 20px;
+    cursor: default;
+}   
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    align-items: center;
+    height: 48px;
+    padding: 6px;
+}
+
+.header_box {
+    display: flex;
+    float: right;
+    height: 48px;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.logo_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.content_box {
+    padding-top: 20px;
+}
+
+.search_box {
+    display: flex;
+    height: 37px;
+    background: #000000a1;
+    border: 1px solid #000000a1;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 8px 20px 0 20px;
+    width: 584px;
+    max-width: 560px;
+    min-width: 200px;
+    padding: 5px 8px 0 14px;
+    width: auto;
+}
+
+.button {
+    background-color: #000000a1;
+    border: 1px solid #000000a1;
+    border-radius: 4px;
+    color: white;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 30px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: rgb(0, 204, 255);
+    box-shadow: 0 2px 4px 0 rgba(0, 225, 255, 0.8), 0 3px 10px 0 rgba(0, 225, 255, 0.4);
+}
+
+.button:focus {
+    border: 1px solid #00ccff;
+    box-shadow: 0 0 0 0, 0 0 0 0;
+}
+
+.search_box:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 225, 255, 0.8), 0 3px 10px 0 rgba(0, 225, 255, 0.4);
+}
